@@ -49,7 +49,8 @@ Use this path first to confirm the app boots correctly.
 
 1. Create env file and install dependencies.
 ```bash
-cd <repo-path>
+git clone https://github.com/tonykipkemboi/telnyx-fax-oss-example.git
+cd telnyx-fax-oss-example
 cp .env.example .env
 uv sync --extra dev
 ```

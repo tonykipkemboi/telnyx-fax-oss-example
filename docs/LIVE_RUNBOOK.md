@@ -2,7 +2,8 @@
 
 ## 1) Start the API
 ```bash
-cd <repo-path>
+git clone https://github.com/tonykipkemboi/telnyx-fax-oss-example.git
+cd telnyx-fax-oss-example
 uv sync --extra dev
 cp .env.example .env
 make run HOST=0.0.0.0 PORT=8000
